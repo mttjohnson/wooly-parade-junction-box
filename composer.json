@@ -1,0 +1,14 @@
+{
+    "name": "mttjohnson/wooly-parade-junction-box",
+    "description": "Magento 2 Sample Module - Demonstrating Plugins",
+    "require": {
+        "magento/framework": "1.0.0-beta"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Mttjohnson\\JunctionBox\\": ""
+        }
+    }
+}
